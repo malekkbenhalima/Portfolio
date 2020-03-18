@@ -40,7 +40,20 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard', '~> 2.16', '>= 2.16.1'
+  # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
+
+# Make errors better looking
+gem 'better_errors', '~> 2.4'
+
+# Bulma CSS
+gem 'bulma-rails', '~> 0.8.0'
+
+# Simple Form 
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
