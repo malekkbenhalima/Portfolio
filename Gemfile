@@ -44,10 +44,9 @@ group :development do
   gem 'guard', '~> 2.16', '>= 2.16.1'
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', require: false
+  # Make errors better looking
+  gem 'better_errors', '~> 2.4'
 end
-
-# Make errors better looking
-gem 'better_errors', '~> 2.4'
 
 # Bulma CSS
 gem 'bulma-rails', '~> 0.8.0'
